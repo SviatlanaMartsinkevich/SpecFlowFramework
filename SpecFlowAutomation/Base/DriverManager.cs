@@ -24,7 +24,6 @@ namespace SpecFlowAutomation.Base
         {
             Instance().Quit();
             driver.Value = null;
-            Console.WriteLine("Check something");
         }
     }
 }
