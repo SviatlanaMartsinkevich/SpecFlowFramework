@@ -74,10 +74,11 @@ namespace SpecFlowAutomation.Specs.Features
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("[scenario name]")]
+        [NUnit.Framework.DescriptionAttribute("Clicking menu option from the main menu should search necessary data and open cor" +
+            "responding page")]
         [NUnit.Framework.CategoryAttribute("smoke")]
         [NUnit.Framework.TestCaseAttribute("Docs", "SpecFlow", "Installation", "Installation", "Installation", null)]
-        public virtual void ScenarioName(string menuItem, string subMenuItem, string inputText, string result, string title, string[] exampleTags)
+        public virtual void ClickingMenuOptionFromTheMainMenuShouldSearchNecessaryDataAndOpenCorrespondingPage(string menuItem, string subMenuItem, string inputText, string result, string title, string[] exampleTags)
         {
             string[] @__tags = new string[] {
                     "smoke"};
@@ -92,7 +93,8 @@ namespace SpecFlowAutomation.Specs.Features
             argumentsOfScenario.Add("inputText", inputText);
             argumentsOfScenario.Add("result", result);
             argumentsOfScenario.Add("title", title);
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("[scenario name]", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Clicking menu option from the main menu should search necessary data and open cor" +
+                    "responding page", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
 #line 6
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
